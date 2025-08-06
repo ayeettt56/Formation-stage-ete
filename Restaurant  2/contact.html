@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon restaurant</title>
+    <meta name="description" content="description du restaurant">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Nous contacter </h1>
+        <nav>
+            <a href="index.html" title="Acceuil">Acceuil</a>
+            <a href="menu.html" title="Menu">Menu</a>
+            <a href="contact.html" title="Contact">Contact</a>
+        </nav>
+        <img src="./img/res.png" alt="Notre restaurant" width="1260" height="366">
+    </header>
+    <section>
+        <h2>Ou nous trouver</h2>
+        <p>
+            123 rue riadh<br>
+            3400 Tunis <br>
+            Tunisia
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12778.125353870655!2d10.172570360961895!3d36.80578565592494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd350011a426d7%3A0x7e85cb577e3171f9!2sSEOUL%20BINGSU!5e0!3m2!1sen!2stn!4v1754398236507!5m2!1sen!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2>Nous envoyer un email</h2> 
+        <form action="contact.html">
+            <div>
+                <label for="email">Email<sup>*</sup>    
+                </label>
+                <input type="email" required id="email" name="Email" placeholder="Votre@email">
+            </div>
+            <div>
+                <label for="pwd">Password<sup>*</sup>
+                </label>
+                <input type="password" required id="pwd" name="password" placeholder="Votre password">
+            </div>
+            <div>
+                <label for="fname">Prenom<sup>*</sup>
+                </label>
+                <input type="text" required id="fname" name="Firstname" placeholder="Votre prenom">
+            </div>
+            <div>
+                <label for="lname">Nom</label>
+                <input type="text" required id="lname" name="Lastname" placeholder="Votre nom ">
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea required id="message" name="message"></textarea>
+            </div>
+            <button type="submit">Envoyer</button><br>
+            <button type="reset">Reset</button>
+        </form>   
+    </section>
+    <hr>
+    <footer>
+        <address> 123 rue riadh</address>
+    </footer>
+</body>
+</html>
